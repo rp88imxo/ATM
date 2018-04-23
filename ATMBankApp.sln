@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATMBankApp", "ATMBankApp\ATMBankApp.csproj", "{AE695F61-0CCA-491A-8F1A-E3C28C13FE9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATMlib", "ATMlib\ATMlib.csproj", "{89AD3730-41BA-4822-83C2-420651AB84FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE695F61-0CCA-491A-8F1A-E3C28C13FE9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE695F61-0CCA-491A-8F1A-E3C28C13FE9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE695F61-0CCA-491A-8F1A-E3C28C13FE9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE695F61-0CCA-491A-8F1A-E3C28C13FE9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89AD3730-41BA-4822-83C2-420651AB84FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89AD3730-41BA-4822-83C2-420651AB84FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89AD3730-41BA-4822-83C2-420651AB84FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89AD3730-41BA-4822-83C2-420651AB84FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1442A764-28FC-415F-88B4-B350A3D258BC}
+	EndGlobalSection
+EndGlobal

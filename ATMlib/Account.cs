@@ -73,11 +73,13 @@ namespace ATMlib
             CallEvent(e, Calculated);
         }
 
+        //Положить деньги
         public virtual void Put(decimal sum)
         {
             _sum += sum;
             OnAdded(new AccountEventArgs("На счет поступило: " + sum, sum));
         }
+        //Снять
         public virtual decimal Withdraw(decimal sum)
         {
             decimal res = 0;

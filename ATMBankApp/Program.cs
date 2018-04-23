@@ -11,7 +11,7 @@ namespace ATMBankApp
 {
     class Program
     {
-
+        
         static void Main(string[] args)
         {
             Bank<Account> bank = new Bank<Account>("ЮнитБанк");
